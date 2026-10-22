@@ -7,3 +7,4 @@ numpy
 imblearn
 lightgbm
 catboost
+xgboost
