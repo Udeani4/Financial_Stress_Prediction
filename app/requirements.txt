@@ -1,0 +1,15 @@
+# Dependencies for the Streamlit app only (Streamlit Cloud reads this file
+# because it sits next to streamlit_app.py).
+# Model libraries are pinned to the versions the models were trained and
+# pickled with; change them only if you re-export the model.
+streamlit>=1.50
+plotly>=5.20
+pyarrow==19.0.1        # newer pyarrow needs NumPy 2, which the pinned models do not use
+numpy==1.26.4
+pandas==2.1.4
+scipy==1.11.4
+scikit-learn==1.9.1
+joblib==1.6.0
+lightgbm==4.7.0
+xgboost==3.2.0
+catboost==1.2.10
